@@ -1,0 +1,86 @@
+body{
+  background-color: whitesmoke;
+ /* background-image: url("images/airborne.jpg");*
+  background-size: cover;*/
+}
+
+h1{font-size:35px;
+    }
+h2 { font-size:20px;
+    }
+
+h1,h2,p{font-family: /'Times New Roman', Times, serif;}
+
+header h1,header h2{
+  text-align: center;
+  /*color: pink;*/
+  text-transform: uppercase;
+  border:black 0px solid; 
+  margin-bottom: 10px;
+  margin-top: 10px;
+  padding-top:5px;
+  padding-bottom:15px;
+  text-shadow: 0px 0px 0px #000000;
+}
+header h1{color:#fd848f;}
+
+main div >p
+      {
+       color:gold;
+       font-size: 20px;
+       border-right-width: 1000px;
+      }
+
+footer div>p{
+  color:#ffffff
+}
+
+a {
+  text-shadow:none   ;
+}
+a:link    { color: blue;  }
+a:visited { color: red;   }
+a:hover   { color: lightgreen; }
+a:active  { color: yellow;  }
+
+header hr{
+    display: block;
+    height: 0px;
+    border: 0;
+    border-top: 0px solid black;
+    margin: 0em 0;
+    padding: 10;}
+
+main hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid black;
+    margin: 1em 0;
+    padding: 0;
+}
+
+/*pseudo classes*/
+.dark-background{ 
+  background-color: #110099;
+  color:#ffffff}
+
+/*the width of the wrapper determines how wide the containers that display everything are*/
+.wrapper{
+          width:600px;
+          margin:auto;
+}
+
+
+.text-centered{
+  text-align: center;
+}
+
+/*.outline puts a border around the picture so it isn't up against the header*/
+.outline{
+  border-top: 15px solid whitesmoke;
+}
+
+
+
+
