@@ -49,7 +49,7 @@ header hr{
     border: 0;
     border-top: 0px solid black;
     margin: 0em 0;
-    padding: 10;}
+    padding: 10px;}
 
 main hr {
     display: block;
@@ -59,7 +59,7 @@ main hr {
     margin: 1em 0;
     padding: 0;
 }
-
+footer div p{color:black;}
 /*pseudo classes*/
 .dark-background{ 
   background-color: #110099;
